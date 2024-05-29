@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &75035872873644555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8204865267872377431}
+  - component: {fileID: -6269731954999421518}
+  m_Layer: 0
+  m_Name: ChessPieces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8204865267872377431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75035872873644555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6410482, y: 0.77854925, z: -0.009817819}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6269731954999421518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75035872873644555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda4fee906335c34281bb08f8484e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameController: {fileID: 3631271285781196137, guid: bf3810984f25c9f40822298e8ca30609, type: 3}
+  chesspieces: {fileID: -6269731954999421518}
+  _xBoard: 0
+  _yBoard: 0
+  pieceType: 
+  playerColor: 
+  isWhite: 0
+  DoubleStep: 0
+  MovingY: 0
+  MovingX: 0
+  moved: 0
+  HighestRankY: 3.5
+  LowestRankY: -3.5
+  MoveSpeed: 20
+  whitePawnPrefab: {fileID: 187706858587961596, guid: e9e24f4f8bdf69b498c9f5571f49cc8b, type: 3}
+  whiteRookPrefab: {fileID: 6683317212700647206, guid: 4381cf6c12da6e34bb3435af66a53056, type: 3}
+  whiteKnightPrefab: {fileID: 7513849038961747917, guid: 0111d373301aaa34689dd5afb574a93e, type: 3}
+  whiteBishopPrefab: {fileID: 3300947257207095393, guid: b0032bec14f66bc4a9b218135f32c078, type: 3}
+  whiteQueenPrefab: {fileID: 6543823887861168942, guid: 2a66b96e96a34744ab2ec0178da032fb, type: 3}
+  whiteKingPrefab: {fileID: 8490584875828537631, guid: b4974720a24d49045b51b9b5d3267862, type: 3}
+  blackPawnPrefab: {fileID: 4712406435235332117, guid: 8085a1562c80856488b89bacb4162e1b, type: 3}
+  blackRookPrefab: {fileID: 805847655587975937, guid: 4b856923bf2e4164590d9a19ba7a0a8d, type: 3}
+  blackKnightPrefab: {fileID: 1628162176428464482, guid: 19728aff2464eb44b8217a6514c663cb, type: 3}
+  blackBishopPrefab: {fileID: 820066468152149159, guid: cc78535276d7d5947b9d6d816c606f1e, type: 3}
+  blackQueenPrefab: {fileID: 1704973274571731905, guid: fff3b39918558a64ca6796c78b1d83c0, type: 3}
+  blackKingPrefab: {fileID: 5223177334428164066, guid: 212b319ea727d6547b2d49ab237148b5, type: 3}
